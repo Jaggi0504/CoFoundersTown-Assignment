@@ -32,6 +32,7 @@ router.post('/publish',requireLogin,(req,res) =>{
 
 router.get('/allpost',requireLogin,(req,res) =>{
     Post.find()
+        .sort('-createdAt')
         .populate("postedBy","_id name")
         .populate("comments.postedBy","_id name")        
         .then(posts =>{
@@ -71,13 +72,14 @@ router.delete('/deletepost/:postId',requireLogin,(req,res) =>{
 })
 
 router.get('/allpost2',(req,res) =>{
-    Post.find()
-        .then(posts =>{
-            res.json({posts})
-        })
-        .catch(err =>{
+    Post.find().sort('-createdAt')
+                .then(posts =>{
+                    console.log(posts)
+                res.json({posts})
+                })
+            .catch(err =>{
             console.log(err)
-        })
+             })
 })
 
 
