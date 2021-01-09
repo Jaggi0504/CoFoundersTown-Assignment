@@ -17,7 +17,7 @@ Please Note:*If the user has not logged in, the navigation bar will display thre
 7: Cloudinary (Software-as-a-Service) is used to manage the post created by the user. 
 
 
-Please Also Note:*Only after logging in, the users will get the access to delete it's own post. If the user has not logged in, it can not delete it's own post.*
+Also, Please note that:*Only after logging in, the users will get the access to delete it's own post. If the user has not logged in, it can not delete it's own post.*
 
 Used cases: 
 Please try logging in with the following credentials:
