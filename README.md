@@ -2,7 +2,7 @@
 
 A FULL Stack (MERN) assignment
 
-Please Note:*If the user has not logged in, the navigation bar will display three options: Signin, Signup, Home. Home component contains all the posts that have been posted by the users. After logging, the navigation bar will show three options: Profile, Publish and Logout. Also, if you will click on "Blogs (displayed on the navigation bar)", you will be able to see all the posts.*
+Please Note: *If the user has not logged in, the navigation bar will display three options: Signin, Signup, Home. Home component contains all the posts that have been posted by the users. After logging, the navigation bar will show three options: Profile, Publish and Logout. Also, if you will click on "Blogs (displayed on the navigation bar)", you will be able to see all the posts.*
 
 1: Home Screen:  It is showing all the articles on the basis of the latest article first. Whatever article the users have published will be displayed on this component.
 2: Login Screen
@@ -17,7 +17,7 @@ Please Note:*If the user has not logged in, the navigation bar will display thre
 7: Cloudinary (Software-as-a-Service) is used to manage the post created by the user. 
 
 
-Also, Please note that:*Only after logging in, the users will get the access to delete it's own post. If the user has not logged in, it can not delete it's own post.*
+Also, Please note that: *Only after logging in, the users will get the access to delete it's own post. If the user has not logged in, it can not delete it's own post.*
 
 Used cases: 
 Please try logging in with the following credentials:
